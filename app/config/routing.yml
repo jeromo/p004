@@ -1,0 +1,4 @@
+jrojo_hello:
+    resource: "@JrojoHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
