@@ -1,0 +1,26 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>club.tenis</groupId>
+        <artifactId>club.tenis</artifactId>
+        <name>club.tenis</name>
+        <version>1.0-SNAPSHOT</version>
+        <build>
+                <sourceDirectory>src</sourceDirectory>
+                <testSourceDirectory>app</testSourceDirectory>
+        </build>
+        <properties>
+        <sonar.phpUnit.configuration>phpunit.xml.dist</sonar.phpUnit.configuration> 
+<!--
+                        <sonar.exclusions>vendor/**,test/**</sonar.exclusions>
+                        <sonar.pdepend.ignore>vendor</sonar.pdepend.ignore>
+                <sonar.skippedModules>fonts/*,img/*,theme/*,themes/*,uris/*,target/*,vendor/*</sonar.skippedModules>
+-->
+                <sonar.language>php</sonar.language>
+<!--
+                            <sonar.phpcpd.excludes>vendor</sonar.phpcpd.excludes>
+-->
+<!--                <sonar.phpUnit.analyzeOnly>true</sonar.phpUnit.analyzeOnly>
+-->
+        </properties>
+
+</project>
