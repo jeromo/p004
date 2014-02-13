@@ -1,6 +1,6 @@
 <?php
 
-namespace Jrojo\HelloBundle\Tests\Controller;
+namespace Jrojo\TaskBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
