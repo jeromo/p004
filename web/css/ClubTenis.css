@@ -1,0 +1,22 @@
+h1 {  
+  color: #000066;  
+  text-decoration: underline;  
+  text-align: center;
+}
+
+#ID_MENU {  
+  text-align: center;
+}
+
+a.item_menu {  
+  font-family: KacstDecorative;  
+  font-size: xx-large;  
+  font-style: italic;  -epub-text-transform: capitalize;
+  text-transform: capitalize;  
+  background-color: #33ff33;
+}
+
+menu.hidden {  
+  display: none;
+}
+
