@@ -18,7 +18,9 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Jrojo\HelloBundle\JrojoHelloBundle(),
             new Jrojo\TaskBundle\JrojoTaskBundle(),
-        	new Oryzone\Bundle\BoilerplateBundle\OryzoneBoilerplateBundle()
+        	new Oryzone\Bundle\BoilerplateBundle\OryzoneBoilerplateBundle(),
+            new Jrojo\LoginBundle\JrojoLoginBundle(),
+            new Jrojo\ClubBundle\JrojoClubBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
