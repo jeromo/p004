@@ -1,0 +1,7 @@
+parameters:
+#    jrojo_account.example.class: Jrojo\AccountBundle\Example
+
+services:
+#    jrojo_account.example:
+#        class: %jrojo_account.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

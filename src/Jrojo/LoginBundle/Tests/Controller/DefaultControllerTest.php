@@ -1,6 +1,6 @@
 <?php
 
-namespace Jrojo\ClubBundle\Tests\Controller;
+namespace Jrojo\LoginBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

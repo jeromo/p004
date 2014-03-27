@@ -1,6 +1,6 @@
 <?php
-// src/Acme/AccountBundle/Form/Type/UserType.php
-namespace Jrojo\ClubBundle\Form\Type;
+// src/Jrojo/AccountBundle/Form/Type/UserType.php
+namespace Jrojo\AccountBundle\Form\Type;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
@@ -19,7 +19,7 @@ class UserType extends AbstractType
 	public function setDefaultOptions(OptionsResolverInterface $resolver)
 	{
 		$resolver->setDefaults(array(
-				'data_class' => 'Jrojo\ClubBundle\Entity\User'
+				'data_class' => 'Jrojo\AccountBundle\Entity\User'
 		));
 	}
 	public function getName()

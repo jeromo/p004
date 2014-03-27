@@ -1,3 +1,0 @@
-jrojo_club_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: JrojoClubBundle:Default:index }

@@ -20,7 +20,7 @@ class AppKernel extends Kernel
             new Jrojo\TaskBundle\JrojoTaskBundle(),
         	new Oryzone\Bundle\BoilerplateBundle\OryzoneBoilerplateBundle(),
             new Jrojo\LoginBundle\JrojoLoginBundle(),
-            new Jrojo\ClubBundle\JrojoClubBundle(),
+            new Jrojo\AccountBundle\JrojoAccountBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

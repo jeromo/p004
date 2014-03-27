@@ -1,6 +1,6 @@
 <?php
-// src/Jrojo/ClubBundle/Entity/User.php
-namespace Jrojo\ClubBundle\Entity;
+// src/Jrojo/AccountBundle/Entity/User.php
+namespace Jrojo\AccountBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
