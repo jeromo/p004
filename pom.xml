@@ -11,7 +11,7 @@
         <properties>
         <sonar.phpUnit.configuration>app/phpunit.xml.dist</sonar.phpUnit.configuration> 
 <!--
-                        <sonar.exclusions>vendor/**,test/**</sonar.exclusions>
+                        <sonar.exclusions>vendor/**,test/**,cache/**</sonar.exclusions>
                         <sonar.pdepend.ignore>vendor</sonar.pdepend.ignore>
                 <sonar.skippedModules>fonts/*,img/*,theme/*,themes/*,uris/*,target/*,vendor/*</sonar.skippedModules>
 -->
