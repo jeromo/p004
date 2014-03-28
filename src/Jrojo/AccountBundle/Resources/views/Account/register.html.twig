@@ -1,2 +1,23 @@
 {# src/Jrojo/AccountBundle/Resources/views/Account/register.html.twig #}
-{{ form(form) }}
+{# {{ form(form) }} #}
+{{ form_start(form) }}
+    {{ form_errors(form) }}
+ 
+    <div>
+        {{ form_label(form.user.email) }}
+        {{ form_errors(form.user.email) }}
+        {{ form_widget(form.user.email) }}
+    </div>
+ 
+    <div>
+        {{ form_label(form.user.plainPassword.password) }}
+        {{ form_errors(form.user.plainPassword.password) }}
+        {{ form_widget(form.user.plainPassword.password) }}
+
+        {{ form_label(form.user.plainPassword.confirm) }}
+        {{ form_errors(form.user.plainPassword.confirm) }}
+        {{ form_widget(form.user.plainPassword.confirm) }}
+        </div>
+ 
+    
+{{ form_end(form) }}
