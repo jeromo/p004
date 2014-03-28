@@ -1,23 +1,27 @@
 {# src/Jrojo/AccountBundle/Resources/views/Account/register.html.twig #}
-{# {{ form(form) }} #}
-{{ form_start(form) }}
-    {{ form_errors(form) }}
- 
-    <div>
-        {{ form_label(form.user.email) }}
-        {{ form_errors(form.user.email) }}
-        {{ form_widget(form.user.email) }}
-    </div>
- 
-    <div>
-        {{ form_label(form.user.plainPassword.password) }}
-        {{ form_errors(form.user.plainPassword.password) }}
-        {{ form_widget(form.user.plainPassword.password) }}
+{# {{ form(form) }} #} 
+{% extends "OryzoneBoilerplateBundle::html5.html.twig" %} 
+{% block head_title %}{{ title }}{% endblock %} 
 
-        {{ form_label(form.user.plainPassword.confirm) }}
-        {{ form_errors(form.user.plainPassword.confirm) }}
-        {{ form_widget(form.user.plainPassword.confirm) }}
-        </div>
- 
-    
+{% block body_container_header %}
+<h1>{{ header_body }}</h1>
+{% endblock %} {% block body_container_main %}
+<p>
+
+{{ form_start(form) }} {{ form_errors(form) }}
+<div>{{ form_label(form.user.email) }} {{ form_errors(form.user.email)
+	}} {{ form_widget(form.user.email) }}</div>
+
+<div>{{ form_label(form.user.plainPassword.password) }} {{
+	form_errors(form.user.plainPassword.password) }} {{
+	form_widget(form.user.plainPassword.password) }} {{
+	form_label(form.user.plainPassword.confirm) }} {{
+	form_errors(form.user.plainPassword.confirm) }} {{
+	form_widget(form.user.plainPassword.confirm) }}</div>
+
+
 {{ form_end(form) }}
+</p>
+
+{% endblock %} {% block body_container_footer %} Here we go with
+copyright infos {% endblock %}
