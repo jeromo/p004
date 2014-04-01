@@ -9,3 +9,12 @@ account_register:
 account_create:
     pattern: /register/create
     defaults: { _controller: JrojoAccountBundle:Account:create }
+
+account_login:
+    pattern: /login
+    defaults: { _controller: JrojoAccountBundle:Account:login }
+    
+account_check:
+    pattern: /login/check
+    defaults: { _controller: JrojoAccountBundle:Account:check }
+    

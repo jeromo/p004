@@ -1,9 +1,5 @@
-jrojo_club:
+jrojo_account:
     resource: "@JrojoAccountBundle/Resources/config/routing.yml"
-    prefix:   /
-
-jrojo_login:
-    resource: "@JrojoLoginBundle/Resources/config/routing.yml"
     prefix:   /
 
 jrojo_task:

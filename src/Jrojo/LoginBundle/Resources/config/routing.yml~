@@ -1,3 +1,0 @@
-jrojo_login_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: JrojoLoginBundle:Default:index }

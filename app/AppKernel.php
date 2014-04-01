@@ -18,8 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Jrojo\HelloBundle\JrojoHelloBundle(),
             new Jrojo\TaskBundle\JrojoTaskBundle(),
-        	new Oryzone\Bundle\BoilerplateBundle\OryzoneBoilerplateBundle(),
-            new Jrojo\LoginBundle\JrojoLoginBundle(),
+       	    new Oryzone\Bundle\BoilerplateBundle\OryzoneBoilerplateBundle(),
             new Jrojo\AccountBundle\JrojoAccountBundle(),
         );
 

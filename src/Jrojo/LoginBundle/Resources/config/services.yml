@@ -1,7 +1,0 @@
-parameters:
-#    jrojo_login.example.class: Jrojo\LoginBundle\Example
-
-services:
-#    jrojo_login.example:
-#        class: %jrojo_login.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

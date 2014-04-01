@@ -30,7 +30,7 @@ class User {
 	 * @Assert\NotBlank()
 	 * @Assert\Length(max = 4096)
 	 */
-	protected $plainPassword;
+	protected $password;
 	public function getId() {
 		return $this->id;
 	}
@@ -40,10 +40,10 @@ class User {
 	public function setEmail($email) {
 		$this->email = $email;
 	}
-	public function getPlainPassword() {
-		return $this->plainPassword;
+	public function getPassword() {
+		return $this->password;
 	}
-	public function setPlainPassword($password) {
-		$this->plainPassword = $password;
+	public function setPassword($password) {
+		$this->password = md5($password);
 	}
 }
