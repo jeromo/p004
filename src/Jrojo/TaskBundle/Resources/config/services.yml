@@ -1,7 +1,0 @@
-parameters:
-#    jrojo_task.example.class: Jrojo\TaskBundle\Example
-
-services:
-#    jrojo_task.example:
-#        class: %jrojo_task.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

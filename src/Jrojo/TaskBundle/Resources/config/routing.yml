@@ -1,8 +1,0 @@
-task:
-    pattern:  /task/{name}
-    defaults: { _controller: JrojoTaskBundle:Default:new }
-jrojo_task_homepage:
-    pattern:  /task
-    pattern:  /task/
-    defaults: { _controller: JrojoTaskBundle:Default:new }
-    

@@ -2,11 +2,3 @@ jrojo_account:
     resource: "@JrojoAccountBundle/Resources/config/routing.yml"
     prefix:   /
 
-jrojo_task:
-    resource: "@JrojoTaskBundle/Resources/config/routing.yml"
-    prefix:   /
-
-jrojo_hello:
-    resource: "@JrojoHelloBundle/Resources/config/routing.yml"
-    prefix:   /
-
