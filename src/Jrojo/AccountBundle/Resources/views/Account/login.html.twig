@@ -1,0 +1,24 @@
+{# src/Jrojo/AccountBundle/Resources/views/Account/login.html.twig #}
+{# {{ form(form) }} #} 
+{% extends "OryzoneBoilerplateBundle::html5.html.twig" %} 
+{% block head_title %}{{ title }}{% endblock %} 
+
+{% block body_container_header %}
+<h1>{{ header_body }}</h1>
+{% endblock %} {% block body_container_main %}
+<p>
+
+{{ form_start(form) }} {{ form_errors(form) }}
+<div>{{ form_label(form.email) }} {{ form_errors(form.email)
+	}} {{ form_widget(form.email) }}</div>
+
+<div>{{ form_label(form.password) }} {{
+	form_errors(form.password) }} {{
+	form_widget(form.password) }} </div>
+
+
+{{ form_end(form) }}
+</p>
+
+{% endblock %} {% block body_container_footer %} Here we go with
+copyright infos {% endblock %}
